@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main() {
-    source settings.cfg
+    source "${BASH_SOURCE%/*}/settings.cfg"
 
     for camera in "${!cameras[@]}"
     do
