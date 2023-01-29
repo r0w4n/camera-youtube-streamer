@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main() {
-    source youtube_settings.cfg
+    source settings.cfg
 
     for camera in "${!cameras[@]}"
     do
